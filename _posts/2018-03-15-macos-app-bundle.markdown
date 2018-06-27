@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "macOS向け .app 形式での配布"
 date:   2018-03-15 11:04:29 +0900
 categories: bismuth macOS
