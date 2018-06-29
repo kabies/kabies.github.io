@@ -1,7 +1,7 @@
 ---
 title:  "SDL 2.0.8 + macOS で半透明ウインドウ"
 date:   2018-03-21 21:00:00 +0900
-categories: macOS SDL minimeter mruby cocoa
+tags: macOS SDL minimeter mruby cocoa
 ---
 
 SDLのバージョンを2.0.8へ上げたところ、 [mruby-sdl2-cocoa](https://github.com/mruby-sdl2/mruby-sdl2-cocoa)

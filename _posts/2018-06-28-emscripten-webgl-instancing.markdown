@@ -1,7 +1,7 @@
 ---
 title:  "emscripten, SDL2, OpenGL, WebGL, instanced rendering!"
 date:   2018-06-28 05:00:00 +0900
-categories: emscripten SDL OpenGL WebGL
+tags: emscripten SDL OpenGL WebGL
 ---
 
 # SDL2 のスプライト描画はもうちょい速くならないか？
@@ -10,6 +10,8 @@ SDL2 で愚直に大量のスプライト描画すると結構遅い。
 
 OpenGLでの描画システムをゼロから作ることになるが、 instanced rendering を使えば速くなるのでは！というアイデアである。
 （メモ：整形してあとでコード公開すること）
+
+※2018-06-29追記：実験用のコード <https://github.com/kabies/sprite-instancing>
 
 いくつかの制限はあるものの実際うまくいった。ついでにWebGLにも対応した。
 
@@ -158,4 +160,3 @@ OpenGL 2.0 / ES 2.0 世代のシェーダーでは `gl_VertexID` が使えない
 使用中のブラウザのWebGLのパラメータ（テクスチャの最大サイズとか）を知りたい場合、 <http://webglreport.com> をみると良い。
 
 パラメータの統計データ（テクスチャサイズ4096がどれくらいの割合で使えるか？とか）を知りたい場合、 <https://webglstats.com> をみると良い。
-

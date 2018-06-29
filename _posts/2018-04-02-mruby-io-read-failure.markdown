@@ -1,7 +1,7 @@
 ---
 title:  "UTF-8 を有効にすると mruby-io の read の動作がおかしくなる"
 date:   2018-04-02 18:00:00 +0900
-categories: mruby
+tags: mruby
 ---
 
 `MRB_UTF8_STRING` を指定して `mruby-io` を使うと、正常にデータを読み込めない。

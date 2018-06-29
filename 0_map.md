@@ -1,14 +1,12 @@
 ---
-title: Categories
-permalink: /categories/
+title: Map
+permalink: /map/
 ---
 
-{% for category in site.categories %}
-  <h4>{{ category[0] }}</h4>
-
+{% for tag in site.tags %}
+  <h4>{{ tag[0] }}</h4>
   <ul class="post-list">
-
-  {% for posts in category %}
+  {% for posts in tag %}
     {% for post in posts %}
       {% if post.title != nil %}
 
@@ -28,4 +26,6 @@ permalink: /categories/
     {% endfor %}
   {% endfor %}
   </ul>
+
 {% endfor %}
+

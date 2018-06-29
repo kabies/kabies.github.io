@@ -1,7 +1,7 @@
 ---
 title:  "macOS向け .app 形式での配布"
 date:   2018-03-15 11:04:29 +0900
-categories: bismuth macOS
+tags: bismuth macOS
 ---
 
 macOS向けにアプリを配布する場合bundle(.app)にしたい。
