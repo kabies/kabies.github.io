@@ -17,7 +17,7 @@ OpenGLでの描画システムをゼロから作ることになるが、 instanc
 
 WebGL 版の性能を iPhone7 と MacBook Air 11inch (Intel HD Graphics 5000) で測ってみた。
 
-| Deviece        | 16,384 sprites | 32,768 sprites |
+| Device         | 16,384 sprites | 32,768 sprites |
 |----------------|----------------|----------------|
 | Safari@iPhone7 | 60FPS          | 40FPS          |
 | Safari 11.1.1  | 60FPS          | 30FPS          |
@@ -39,7 +39,7 @@ macOS 10.13.4 では [アクティビティモニタでGPU使用率を確認で�
 
 [emscripten](http://emscripten.org/) で C を WebAssembly に変換する。
 
-OpenGL ES としてコードを書くと、だいたい WebGL に変換されて動作する。
+OpenGL ES としてコードを書くと、emscripten によって WebGL に変換されて動作する。
 OpenGL / OpenGL ES / WebGL の対応は _だいたい_ 以下の通り。
 
 | OpenGL     | OpenGL ES |     WebGL |
