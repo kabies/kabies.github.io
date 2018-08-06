@@ -6,7 +6,7 @@ tags: bismite
 
 bismuth というプロジェクトを見つけてしまったので名称を bismite に変えようかな…
 
-## エンジン本体の構成
+# エンジン本体の構成
 
 - bismite-core
   - C製
@@ -19,7 +19,7 @@ bismuth というプロジェクトを見つけてしまったので名称を bi
 - mruby-bismite-ext
   - extのmrubyバインディング
 
-## 周辺ツール
+# 周辺ツール
 
 - bismite-packager
   - 各プラットフォーム用の配布パッケージを作る
