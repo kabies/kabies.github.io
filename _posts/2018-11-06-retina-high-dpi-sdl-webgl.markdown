@@ -12,3 +12,7 @@ Retinaディスプレイに SDL+OpenGL でレンダリングしていると表�
 ![macos-sdl]({{ "/images/2018-11-06/macos-highdpi.png" | absolute_url }})
 
 emscripten + SDL + WebGL の環境でも同様に動作する。
+
+大きめの解像度 (1280x720で試した) にすると、iPhoneのSafariには負荷が高いのか、Webページがクラッシュしてしまった。
+macOS上でも若干負荷がかかっている感じ。
+あと、iOSだとそもそもぼやけがあまり気にならなかったので、この辺は設定で切り替えられると良さげだろうか。
