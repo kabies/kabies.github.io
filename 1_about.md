@@ -4,5 +4,4 @@ permalink: /about/
 ---
 
 - [github](https://github.com/kabies)
-- [bismite](https://github.com/bismuth)
-
+- [bismite](https://github.com/bismite)
