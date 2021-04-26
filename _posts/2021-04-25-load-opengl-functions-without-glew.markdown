@@ -1,6 +1,7 @@
 ---
 title: "emscripten/Linux/macOS/mingw-w64 での GLEW を使わない OpenGL 拡張機能のロード"
 date: 2021-04-25 00:00:00 +0900
+tags: macOS SDL OpenGL WebGL
 ---
 
 # 前提（emscriptenとGLEW）

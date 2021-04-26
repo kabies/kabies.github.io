@@ -1,6 +1,7 @@
 ---
 title: "GitHub Actions での macOS 11 Big Sur 向け arm64/x86_64 ユニバーサルバイナリのコンパイル"
 date: 2021-04-26 00:00:00 +0900
+tags: macOS SDL mruby
 ---
 
 M1チップ（Apple Silicon）搭載 macOS では、 Rosetta 2 で x86_64 向けバイナリを実行可能（アクティビティモニタでアーキテクチャの列に Intel と表示される）となっている。
