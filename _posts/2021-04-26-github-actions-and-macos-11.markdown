@@ -12,7 +12,7 @@ M1チップ（Apple Silicon）搭載 macOS では、 Rosetta 2 で x86_64 向け
 
 検証・実験に [GitHub Actions](https://docs.github.com/en/actions) の利用を検討したところ、現状 Intel かつ macOS 10.15 までの環境しか使用できないようだ。（ <https://github.com/actions/virtual-environments> ）
 
-ただ、新しめのバージョンの Xcode が導入されているので、ユニバーサルバイナリのコンパイル事態は可能そう…ということで試してみた。
+ただ、新しめのバージョンの Xcode が導入されているので、ユニバーサルバイナリのコンパイル自体は可能そう…ということで試してみた。
 
 # fatバイナリ化
 
